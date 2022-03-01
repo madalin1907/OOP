@@ -7,6 +7,16 @@ private:
     string titlu;
     int nr_pagini, pg_crt;
 public:
+    Carte(){
+        titlu = "";
+        nr_pagini = pg_crt = 0;
+    }
+    Carte(string Titlu, int nr, int pg){
+        titlu = Titlu;
+        nr_pagini = nr;
+        pg_crt = pg;
+    }
+
     void citeste(){
         cout<<"Titlul:";
         getline(cin, titlu);

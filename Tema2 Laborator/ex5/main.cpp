@@ -9,6 +9,15 @@ private:
     int id;
     float suma;
 public:
+    Client(){
+        id = 0;
+        suma = 0;
+    }
+    Client(int ID, float S){
+        id = ID;
+        suma = S;
+    }
+
     float get_suma(){
         return suma;
     }
@@ -23,11 +32,13 @@ private:
     int nr_clienti;
     Client clienti[30];
 public:
-    void set_nr(int x){
-        nr_clienti = x;
+    Banca(){
+        nr_clienti = 0;
     }
 
     void citeste(){
+        cout<<"Numarul de clienti:";
+        cin>>nr_clienti;
         for (int i=0; i<nr_clienti; ++i)
             clienti[i].citeste();
     }
@@ -47,23 +58,22 @@ public:
         cout<<k<<" clienti au cel putin 1000 RON in cont.\n";
     }
 
-    float peste_100(){
+    void peste_100(){
         int k = 0;
         for (int i=0; i<nr_clienti; ++i)
             if (clienti[i].get_suma() >= 100)
                 ++k;
         cout<<setprecision(2)<<fixed<<(float) k/nr_clienti * 100<<"% dintre clienti au peste 100 RON in cont.\n";
     }
-
 };
 
 int main(){
     Banca B;
     int n;
-    cout<<"Numarul de clienti:"; cin>>n;
-    B.set_nr(n);
+
     B.citeste();
 
+    cout<<endl;
     B.suma_totala();
     B.cel_putin_1000();
     B.peste_100();

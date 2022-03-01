@@ -17,18 +17,18 @@ public:
         clasa1 = _clasa1;
     }
 
-    string getnume(){
-        return nume;
-    }
     void setnume(string _nume){
         nume = _nume;
     }
-
-    bool getclasa1(){
-        return clasa1;
-    }
     void setclasa1(bool _clasa1){
         clasa1 = _clasa1;
+    }
+
+    string getnume(){
+        return nume;
+    }
+    bool getclasa1(){
+        return clasa1;
     }
 
     void citeste(){
@@ -61,4 +61,6 @@ int main()
         b[i].citeste();
 
     statisticaZboruri(n, b);
+
+    return 0;
 }

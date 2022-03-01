@@ -8,15 +8,25 @@ private:
     string titlu;
     int likes;
 public:
-    void citeste(){
+    Film(){
+        titlu = "";
+        likes = 0;
+    }
+    Film(string _titlu, int _likes){
+        titlu = _titlu;
+        likes = _likes;
+    }
+
+    int getlikes(){
+        return likes;
+    }
+
+    void citire(){
         cin.get();
         cout<<endl<<"Titlul:";
         getline(cin, titlu);
         cout<<"Numarul de like-uri:";
         cin>>likes;
-    }
-    int getlikes(){
-        return likes;
     }
     void afisare(){
         cout<<titlu<<endl;
@@ -25,6 +35,7 @@ public:
 
 void afisarePopulare(int n, Film filme[], int k)
 {
+    cout<<"Cele mai populare "<<k<<" filme sunt:"<<endl;
     for (int i=0; i<n-1; i++)
         for (int j=i+1; j<n; j++)
             if (filme[i].getlikes() < filme[j].getlikes())
@@ -40,7 +51,7 @@ int main()
     Film filme[30];
     cout<<"Numarul de filme:"; cin>>n;
     for (int i=0; i<n; i++)
-        filme[i].citeste();
+        filme[i].citire();
     cout<<endl<<"k=";
     cin>>k;
     afisarePopulare(n, filme, k);

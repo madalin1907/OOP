@@ -8,6 +8,18 @@ private:
     int inaltime, latime, pret;
     string mesaj;
 public:
+    Tablou(){
+        inaltime = latime = pret = 0;
+        mesaj = "";
+    }
+    Tablou(int Inaltime, int Latime, int Pret, string Mesaj){
+        inaltime = Inaltime;
+        latime = Latime;
+        pret = Pret;
+        mesaj = Mesaj;
+    }
+
+
     string getmesaj(){
         return mesaj;
     }
@@ -50,8 +62,8 @@ int main()
             indice = i;
         }
     }
-    cout<<endl<<t[indice].getmesaj()<<endl;
-    cout<<maxim;
+
+    cout<<"Mesajul motivational cu numar maxim de cuvinte ("<<maxim<<") este \""<<t[indice].getmesaj()<<"\".";
 
     return 0;
 }

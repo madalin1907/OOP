@@ -7,6 +7,15 @@ class Data{
 private:
     int zi, luna, an;
 public:
+    Data(){
+        zi = luna = an = 0;
+    }
+    Data(int ZI, int LUNA, int AN){
+        zi = ZI;
+        luna = LUNA;
+        an = AN;
+    }
+
     void citeste(){
         cin>>zi>>luna>>an;
     }
@@ -30,6 +39,15 @@ private:
     Data start, end;
     string nume;
 public:
+    Event(){
+        nume = "";
+    }
+    Event(string Nume, Data Start, Data End){
+        nume = Nume;
+        start = Start;
+        end = End;
+    }
+
     void citeste(){
         cout<<endl<<"Data de inceput:"; start.citeste();
         cout<<"Data de final:"; end.citeste();
@@ -99,5 +117,6 @@ int main()
             e[i].afisare();
             ult = i;
         }
+
     return 0;
 }
