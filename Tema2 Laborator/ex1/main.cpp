@@ -55,8 +55,8 @@ void statisticaZboruri(int n, Bilet bilete[]){
 int main()
 {
     int n;
-    Bilet b[30];
     cout<<"Numarul de bilete:"; cin>>n;
+    Bilet b[n];
     for(int i=0; i<n; i++)
         b[i].citeste();
 

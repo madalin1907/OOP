@@ -52,8 +52,8 @@ int nrcuv(string sir){
 int main()
 {
     int n, maxim = 0, indice;
-    Tablou t[30];
     cout<<"Numarul de tablouri:"; cin>>n;
+    Tablou t[n];
     for (int i=0; i<n; i++){
         t[i].citeste();
         int nr = nrcuv(t[i].getmesaj());

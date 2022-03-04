@@ -48,8 +48,8 @@ void afisarePopulare(int n, Film filme[], int k)
 int main()
 {
     int n, k;
-    Film filme[30];
     cout<<"Numarul de filme:"; cin>>n;
+    Film filme[n];
     for (int i=0; i<n; i++)
         filme[i].citire();
     cout<<endl<<"k=";

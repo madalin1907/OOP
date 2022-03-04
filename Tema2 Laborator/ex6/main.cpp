@@ -99,10 +99,10 @@ void sortare(Event e[], int n){ //ordonez evenimentele in ordine crescatoare, du
 
 int main()
 {
-    Event e[30];
     int n;
-
     cout<<"Numarul de evenimente:"; cin>>n;
+    Event e[n];
+
     for(int i=0; i<n; ++i)
        e[i].citeste();
 
