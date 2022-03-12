@@ -1,0 +1,3 @@
+C:/Users/Madalin/Desktop/POO/Tema3 Laborator (Proiectul 1)/5. Clasa HangMan/cmake-build-debug/CMakeFiles/5__Clasa_HangMan.dir
+C:/Users/Madalin/Desktop/POO/Tema3 Laborator (Proiectul 1)/5. Clasa HangMan/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Madalin/Desktop/POO/Tema3 Laborator (Proiectul 1)/5. Clasa HangMan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

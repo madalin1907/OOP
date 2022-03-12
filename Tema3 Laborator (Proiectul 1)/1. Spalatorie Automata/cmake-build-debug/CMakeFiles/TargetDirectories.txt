@@ -1,0 +1,3 @@
+C:/Users/Madalin/Desktop/POO/Tema3 Laborator (Proiectul 1)/1. Spalatorie Automata/cmake-build-debug/CMakeFiles/1__Spltorie_Automat.dir
+C:/Users/Madalin/Desktop/POO/Tema3 Laborator (Proiectul 1)/1. Spalatorie Automata/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Madalin/Desktop/POO/Tema3 Laborator (Proiectul 1)/1. Spalatorie Automata/cmake-build-debug/CMakeFiles/rebuild_cache.dir
