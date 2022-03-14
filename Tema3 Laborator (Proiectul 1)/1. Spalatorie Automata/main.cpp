@@ -101,16 +101,20 @@ public:
 void Spalatorie::listeazaMasini(){
     cout<<"Spalatoria in prezent:\n";
     for (int i=0; i<nr_masini; i++){
+        int nrCapsule = masini[i].getCapsule();
         if (masini[i].get_liber()){
-            if (masini[i].getCapsule())
-                cout<<"Masina "<<i<<" este libera si poate fi utilizata.\n";
+            if (nrCapsule)
+                cout<<"Masina "<<i<<" este libera si poate fi utilizata ("<<nrCapsule<<" capsule de detergent ramase).\n";
             else
                 cout<<"Masina "<<i<<" este libera, dar neutilizabila, deoarece a ramas fara capsule de detergent.\n";
         }
         else{
             cout<<"Masina "<<i<<" este ocupata pentru inca ";
             masini[i].get_durata().afiseaza();
-            cout<<".\n";
+            if (nrCapsule)
+                cout<<", apoi va putea fi utilizata ("<<nrCapsule<<" capsule de detergent ramase).\n";
+            else
+                cout<<", apoi va deveni inutilizabila, deoarece va ramane fara capsule de detergent.\n";
         }
     }
     cout<<endl;
@@ -121,7 +125,7 @@ void Spalatorie::listeazaMasini(){
 void Spalatorie::adaugaJob(int i, Durata t){
     if (masini[i].get_liber()) {
         if (masini[i].getCapsule() == 0)
-            cout << "Nu se poate adauga spalarea deoarece masina " << i << " a ramas fara capsule de detergent.\n";
+            cout<<"Nu se poate adauga spalarea deoarece masina "<<i<<" a ramas fara capsule de detergent.\n";
         else {
             masini[i].decr_capsule();
             masini[i].set_liber(false);

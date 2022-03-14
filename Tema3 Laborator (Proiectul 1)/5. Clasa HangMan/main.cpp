@@ -24,6 +24,7 @@ public:
     }
 
     void printStats();
+    void printUnknownWord();
     void guess(char c);
     bool playerHasWon();
 };
@@ -34,6 +35,11 @@ void HangMan::printStats(){
     cout<<"Guess: "<<UnknownWord<<endl;
     cout<<"Tried letters: "<<tried_letters<<endl;
     cout<<"You have "<<left_guesses<<" guesses left.\n\n";
+}
+
+
+void HangMan::printUnknownWord(){
+    cout<<"At this moment, the unknown word is: "<<UnknownWord<<"\n\n";
 }
 
 
@@ -84,6 +90,7 @@ void HangMan::guess(char c){
 int  main(){
     HangMan game("Proiect La POO");
     game.printStats();
+    game.printUnknownWord();
 
     game.guess('p');
     game.guess('r');
@@ -106,10 +113,12 @@ int  main(){
     game.guess('u');
     game.guess('h');
     game.guess('a');
+
+    game.printUnknownWord();
+
     game.guess('L');
     game.guess('c');
     game.guess('t');
-
 
     if (game.playerHasWon() == 1)
         cout<<"The player won the game.\n\n";
