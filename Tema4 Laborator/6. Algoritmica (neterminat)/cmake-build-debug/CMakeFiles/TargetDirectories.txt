@@ -1,0 +1,3 @@
+C:/Users/Madalin/Desktop/POO/Tema4 Laborator/6. Algoritmica (neterminat)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Madalin/Desktop/POO/Tema4 Laborator/6. Algoritmica (neterminat)/cmake-build-debug/CMakeFiles/6__Algoritmica.dir
+C:/Users/Madalin/Desktop/POO/Tema4 Laborator/6. Algoritmica (neterminat)/cmake-build-debug/CMakeFiles/edit_cache.dir
