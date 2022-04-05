@@ -1,0 +1,3 @@
+C:/Users/Madalin/Desktop/POO/Tema5 Laborator/2. iMag/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Madalin/Desktop/POO/Tema5 Laborator/2. iMag/cmake-build-debug/CMakeFiles/2__iMag.dir
+C:/Users/Madalin/Desktop/POO/Tema5 Laborator/2. iMag/cmake-build-debug/CMakeFiles/edit_cache.dir

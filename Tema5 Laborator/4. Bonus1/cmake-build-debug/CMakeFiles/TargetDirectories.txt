@@ -1,0 +1,3 @@
+C:/Users/Madalin/Desktop/POO/Tema5 Laborator/4. Bonus1/cmake-build-debug/CMakeFiles/4__Bonus1.dir
+C:/Users/Madalin/Desktop/POO/Tema5 Laborator/4. Bonus1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Madalin/Desktop/POO/Tema5 Laborator/4. Bonus1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
