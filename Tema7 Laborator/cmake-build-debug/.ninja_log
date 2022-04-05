@@ -1,9 +1,15 @@
 # ninja log v5
-381	514	6708968596074775	main.exe	286ecfc319a4820
+453	584	6708969794523091	main.exe	d9422854ab0d42d9
 27	333	6708797296422427	CMakeFiles/main.dir/util/IoBase.cpp.obj	552b70b1bacb782e
 13	384	6708755433914547	CMakeFiles/main.dir/util/functions.cpp.obj	cfc9b230300c9c1a
 2	380	6708968594769272	CMakeFiles/main.dir/main2.cpp.obj	8c3e14cc40d73c84
-4	479	6708969315587020	build.ninja	9214bb17e41f8275
-2	349	6708962737893411	CMakeFiles/main.dir/main1.cpp.obj	64159439e5b19deb
+4	479	6709012180068908	build.ninja	9214bb17e41f8275
 4	453	6708969793278969	CMakeFiles/main.dir/main1.cpp.obj	64159439e5b19deb
-453	584	6708969794523091	main.exe	d9422854ab0d42d9
+12	315	6709012224892731	CMakeFiles/main1.dir/util/IoBase.cpp.obj	eed7fa720a4f3f47
+15	357	6709012225331246	CMakeFiles/main1.dir/util/functions.cpp.obj	16158477effbc211
+0	432	6709012226068813	CMakeFiles/main1.dir/main1.cpp.obj	67fbeb3a7e33e61d
+433	540	6709012227105305	main1.exe	ca6b0f02ecfd2189
+1	326	6709012340884822	CMakeFiles/main2.dir/util/IoBase.cpp.obj	183cf8307e784ccf
+13	356	6709012341193724	CMakeFiles/main2.dir/util/functions.cpp.obj	317288825f955c3c
+15	359	6709012341213677	CMakeFiles/main2.dir/main2.cpp.obj	d5dcf34bccdbeabc
+359	479	6709012342340709	main2.exe	f76493ec3b2b5c6a
