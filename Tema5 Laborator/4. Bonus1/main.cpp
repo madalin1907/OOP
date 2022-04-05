@@ -60,7 +60,7 @@ class Pupil : public PersoanaEvaluata {
 private:
     string cycle;
 public:
-    Pupil() : PersoanaEvaluata() {}
+    Pupil() = default;
     Pupil(int n, const vector<Nota> &note, const string &cycle) : PersoanaEvaluata(n, note), cycle(cycle) {}
 
     istream &read(istream &is) override {
@@ -82,7 +82,7 @@ class Student : public PersoanaEvaluata {
 private:
     string college;
 public:
-    Student() : PersoanaEvaluata() {}
+    Student() = default;
     Student(int n, const vector<Nota> &note, const string &college) : PersoanaEvaluata(n, note), college(college) {}
 
     istream &read(istream &is) override {
@@ -104,7 +104,7 @@ class CourseTaker : public PersoanaEvaluata {
 private:
     string courseName;
 public:
-    CourseTaker() : PersoanaEvaluata() {}
+    CourseTaker() = default;
     CourseTaker(int n, const vector<Nota> &note, const string &courseName) : PersoanaEvaluata(n, note), courseName(courseName) {}
 
     istream &read(istream &is) override {
