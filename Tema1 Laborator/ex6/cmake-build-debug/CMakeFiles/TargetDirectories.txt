@@ -1,0 +1,4 @@
+C:/Users/Madalin/Desktop/POO/Tema1 Laborator/ex6/cmake-build-debug/CMakeFiles/ex1.dir
+C:/Users/Madalin/Desktop/POO/Tema1 Laborator/ex6/cmake-build-debug/CMakeFiles/ex6.dir
+C:/Users/Madalin/Desktop/POO/Tema1 Laborator/ex6/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Madalin/Desktop/POO/Tema1 Laborator/ex6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
