@@ -1,0 +1,3 @@
+C:/Users/Madalin/Desktop/POO/Proiectul 2/cmake-build-debug/CMakeFiles/Proiectul_2.dir
+C:/Users/Madalin/Desktop/POO/Proiectul 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Madalin/Desktop/POO/Proiectul 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
