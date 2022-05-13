@@ -818,7 +818,7 @@ void Menu::procentComputereInfectate() {
         int totalComputere = calculatoare.size();
 
         for (int i = 0; i < totalComputere; ++i)
-            if (calculatoare[i].getRatingTotal())
+            if (calculatoare[i].getRatingTotal() != 0)
                 computereInfectateCNT++;
 
         double procent = double(computereInfectateCNT) / totalComputere * 100;
