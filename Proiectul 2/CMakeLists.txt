@@ -10,4 +10,4 @@ add_executable(Proiectul_2
         util/functions.h
         util/IoBase.cpp
         util/IoBase.h
-        main.cpp)
+        143_Florea_Madalin.cpp)

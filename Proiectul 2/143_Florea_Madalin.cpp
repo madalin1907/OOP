@@ -795,8 +795,8 @@ void Menu::afisarekCalculatoareSortate() {
         cout << "\nk=";
         int k;
         cin >> k;
-        while (k > calculatoare.size()) {
-            cout << "k trebuie sa fie mai mic sau egal decat numarul de calculatoare(" << calculatoare.size() << ")\nk=";
+        while (k <= 0 || k > calculatoare.size()) {
+            cout << "k trebuie sa fie pozitiv si mai mic sau egal decat numarul de calculatoare(" << calculatoare.size() << ")\nk=";
             cin >> k;
         }
         vector<Computer> computers = calculatoare;
