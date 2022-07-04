@@ -1,0 +1,3 @@
+C:/Users/Madalin/Desktop/POO/Colocviu 2021/cmake-build-debug/CMakeFiles/colocviu_malware.dir
+C:/Users/Madalin/Desktop/POO/Colocviu 2021/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Madalin/Desktop/POO/Colocviu 2021/cmake-build-debug/CMakeFiles/rebuild_cache.dir

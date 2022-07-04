@@ -1,0 +1,3 @@
+C:/Users/Madalin/Desktop/Colocviu 2019 v2/cmake-build-debug/CMakeFiles/Colocviu_2019_v2.dir
+C:/Users/Madalin/Desktop/Colocviu 2019 v2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Madalin/Desktop/Colocviu 2019 v2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
