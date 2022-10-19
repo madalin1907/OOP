@@ -1,0 +1,3 @@
+C:/Users/Madalin/Desktop/POO/COLOCVIU 5IULIE/cmake-build-debug/CMakeFiles/COLOCVIU_5IULIE.dir
+C:/Users/Madalin/Desktop/POO/COLOCVIU 5IULIE/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Madalin/Desktop/POO/COLOCVIU 5IULIE/cmake-build-debug/CMakeFiles/rebuild_cache.dir
